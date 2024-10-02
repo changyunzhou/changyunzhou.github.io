@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changyun Zhou - Academic Profile</title>
     <style>
         body {
@@ -24,22 +26,29 @@
         .header h1 {
             margin: 0;
         }
-        .profile-pic {
-            width: 100%;
-            max-width: 320px;
-            margin: 20px 0;
-        }
         .main-content {
+            display: flex;
+            align-items: flex-start;
             padding: 20px;
             background: #fff;
         }
-        .main-content h2 {
+        .profile-pic {
+            width: 100%;
+            max-width: 320px;
+            margin-right: 20px;
+        }
+        .info {
+            flex-grow: 1;
+        }
+        .info h2 {
             color: #333;
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
+            margin-bottom: 15px;
         }
-        .main-content p, .main-content ul {
+        .info p, .info ul {
             line-height: 1.6;
+            margin-bottom: 15px;
         }
         a {
             color: #06c;
@@ -62,54 +71,59 @@
     </div>
     <div class="container">
         <div class="main-content">
-            <!-- Profile Picture -->
+            <!-- Profile Picture on the left -->
             <img src="photo_changyun.jpg" alt="Changyun Zhou" class="profile-pic">
 
-            <!-- Contact Information -->
-            <h2>Contact Information</h2>
-            <p>School of Accounting<br>
-            Southwestern University of Finance and Economics<br>
-            555 Liutai Avenue, Wenjiang District<br>
-            Chengdu, P. R. China, 611130<br>
-            Phone: (86) 028-87092405<br>
-            Email: <a href="mailto:zhoucy@swufe.edu.cn">zhoucy@swufe.edu.cn</a><br>
-            <strong><a href="your-cv-link.pdf" style="color: #990000;">CV</a></strong></p>
+            <!-- Information on the right -->
+            <div class="info">
+                <!-- Contact Information -->
+                <h2>Contact Information</h2>
+                <p>School of Accounting<br>
+                Southwestern University of Finance and Economics<br>
+                555 Liutai Avenue, Wenjiang District<br>
+                Chengdu, P. R. China, 611130<br>
+                Phone: (86) 028-87092405<br>
+                Email: <a href="mailto:zhoucy@swufe.edu.cn">zhoucy@swufe.edu.cn</a><br>
+                <strong><a href="your-cv-link.pdf" style="color: #990000;">CV</a></strong></p>
 
-            <!-- Academic Positions -->
-            <h2>Academic Positions</h2>
-            <p>- Assistant Professor, <strong>Southwestern University of Finance and Economics</strong>, 2021 to present<br>
-            - Adjunct Professor, <strong>Baruch College</strong>, 2017-2021</p>
+                <!-- Academic Positions -->
+                <h2>Academic Positions</h2>
+                <p>- Assistant Professor, <strong>Southwestern University of Finance and Economics</strong>, 2021 to present<br>
+                - Adjunct Professor, <strong>Baruch College</strong>, 2017-2021</p>
 
-            <!-- Education -->
-			<h2>Education</h2>
-			<p>
-				- <strong>Baruch College</strong>, Ph.D. in Finance, 2015-2021 <br>
-				&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: smaller;">Advisors: Lin Peng, Xi Dong</span><br>
-				- <strong>Southwestern University of Finance and Economics</strong>, Financial Engineering, 2011-2015
-			</p>
+                <!-- Education -->
+                <h2>Education</h2>
+                <p>
+                    - <strong>Baruch College</strong>, Ph.D. in Finance, 2015-2021<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: smaller;">Advisors: Lin Peng, Xi Dong</span><br>
+                    - <strong>Southwestern University of Finance and Economics</strong>, Financial Engineering, 2011-2015
+                </p>
+            </div>
+        </div>
 
+        <!-- Working Papers Section -->
+        <div class="main-content">
+            <div class="info">
+                <h2>Working Papers</h2>
+                <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3506910">[1] Flows to International Mutual Funds: Old Money vs. New Money</a>, with <a href="https://sites.google.com/site/abenreph/home/research">Azi Ben-Rephael</a> (Rutgers University), <a href="https://dxbaruch.github.io/#:~:text=I%20am%20currently%20an%20associate%20professor">Xi Dong</a> (Baruch College), and <a href="https://faculty.insead.edu/massimo-massa/">Massimo Massa</a> (INSEAD)</p>
+                <ul>
+                    <li><strong>Award/Media:</strong> <span style="color: red; font-style: italic;">The 2019 PanAgora Asset Management Crowell Prize</span> (<a href="https://www.panagora.com/about/">First Prize</a>): <a href="https://www.pionline.com/awards/research-local-foreign-sentiment-wins-richard-crowell-prize">Pensions &amp; Investments</a>, <a href="https://news.yahoo.com/panagora-asset-management-announces-winner-140000277.html">Yahoo! News</a>, <a href="https://apnews.com/PR%20Newswire/e9f0fe761078d74f14a9741201c632f3">Associated Press</a>, <a href="https://markets.businessinsider.com/news/stocks/panagora-asset-management-announces-winner-of-18th-annual-dr-richard-a-crowell-prize-1028775922">Business Insider</a></li>
+                    <li><strong>Conferences:</strong> E(uropean)FA 2021, 3rd Future of Financial Information Conference 2021 (a SFS conference), CICF 2021, MFA 2022, 5th News and Finance Conference at Columbia University 2021, AFA 2020 (Ph.D. Poster Session)</li>
+                    <li><strong>Schools:</strong> University of Virginia (McIntire and Darden), Baruch College, City University of New York, Rutgers University</li>
+                    <li><strong>Industry:</strong> PanAgora Asset Management</li>
+                </ul>
 
-            <!-- Working Papers -->
-			<h2>Working Papers</h2>
-            <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3506910">[1] Flows to International Mutual Funds: Old Money vs. New Money</a>, with <a href="https://sites.google.com/site/abenreph/home/research">Azi Ben-Rephael</a> (Rutgers University), <a href="https://zicklin.baruch.cuny.edu/faculty-profile/xi-dong/">Xi Dong</a> (Baruch College), and <a href="https://faculty.insead.edu/massimo-massa/">Massimo Massa</a> (INSEAD)</p>
-			<ul>
-				<li><strong>Award/Media:</strong> <span style="color: red; font-style: italic;">The 2019 PanAgora Asset Management Crowell Prize </span> (<a href="https://www.panagora.com/about/">First Prize</a>): <a href="https://www.pionline.com/awards/research-local-foreign-sentiment-wins-richard-crowell-prize">Pensions &amp; Investments</a>, <a href="https://news.yahoo.com/panagora-asset-management-announces-winner-140000277.html">Yahoo! News</a>, <a href="https://apnews.com/PR%20Newswire/e9f0fe761078d74f14a9741201c632f3">Associate Press</a>, <a href="https://markets.businessinsider.com/news/stocks/panagora-asset-management-announces-winner-of-18th-annual-dr-richard-a-crowell-prize-1028775922">Business Insider;</a></li>
-				<li><strong>Conferences:</strong> E(uropean)FA 2021, 3rd Future of Financial Information Conference 2021 (a SFS conference), CICF 2021, MFA 2022, 5th News and Finance Conference at Columbia University 2021, AFA 2020 (Ph.D. Poster Session)</li>
-				<li><strong>Schools:</strong> University of Virginia (McIntire and Darden), Baruch College, City University of New York, Rutgers University</li>
-				<li><strong>Industry:</strong> PanAgora Asset Management</li>
-			</ul>
+                <p><strong>[2] Does the Media Improve or Hurt Market Efficiency? Evidence from Earnings Announcements, Momentum and 130 Other Anomalies</strong>, with <a href="https://dxbaruch.github.io/#:~:text=I%20am%20currently%20an%20associate%20professor">Xi Dong</a> (Baruch College) and <a href="https://faculty.insead.edu/joel-peress/">Joel Peress</a> (INSEAD)</p>
+                <ul>
+                    <li><strong>Schools:</strong> Baruch College, City University of New York, SWUFE</li>
+                </ul>
 
-			<p><strong>[2] Does the Media Improve or Hurt Market Efficiency? Evidence from Earnings Announcements, Momentum and 130 Other Anomalies</strong>, with <a href="https://zicklin.baruch.cuny.edu/faculty-profile/xi-dong/">Xi Dong</a> (Baruch College) and <a href="https://faculty.insead.edu/joel-peress/">Joel Peress</a> (INSEAD)</p>
-			<ul>
-				<li><strong>Schools:</strong> Baruch College, City University of New York, SWUFE</li>
-			</ul>
-
-			<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543999">[3] AI Democratization, Return Predictability, and Trading Inequality</a>, with <a href="https://zicklin.baruch.cuny.edu/faculty-profile/xi-dong/">Xi Dong</a> (Baruch College) and <a href="https://www.yanruchang.com/research">Yanru Chang</a> (Baruch College)</p>
-			<ul>
-				<li><strong>Conferences:</strong> Conference for Financial Economics and Accounting 2024, “AI Era in Finance” Symposium 2024 </li>
-				<li><strong>Schools:</strong> Monash University, Australian National University</li>			
-			</ul>
-			
+                <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543999">[3] AI Democratization, Return Predictability, and Trading Inequality</a>, with <a href="https://dxbaruch.github.io/#:~:text=I%20am%20currently%20an%20associate%20professor">Xi Dong</a> (Baruch College) and <a href="https://www.yanruchang.com/research">Yanru Chang</a> (Baruch College)</p>
+                <ul>
+                    <li><strong>Conferences:</strong> Conference for Financial Economics and Accounting 2024, “AI Era in Finance” Symposium 2024 </li>
+                    <li><strong>Schools:</strong> Monash University, Australian National University</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="footer">
